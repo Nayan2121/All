@@ -2,6 +2,7 @@ import React from "react";
 import { NavBar } from "../components/Navbar/NavBar";
 import { DropdownHover1, DropdownHover2, Rightpart } from "../components/Dropdown/DropdownHover"
 import "./home.css"
+import Footer from "../components/Footer/footer";
 
 export function Home() {
   return (
@@ -21,7 +22,9 @@ export function Home() {
         <section>
           <NavBar />
         </section>
-
+        <section>
+          <Footer/>
+        </section>
       </div>
     </>
   )
