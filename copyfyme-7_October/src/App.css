@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+p,h3{
+  margin: 0 !important;
+}
+.ant-image .ant-image-mask .ant-image-mask-info{
+  padding: 0 !important;
+}
+:root{
+  --btn:#5D87FF;
+  --bg:#ffff;
+  --sec-color:#2A3547AD;
+  --prim-color: #2A3547;
+  --yellow: #FEF5E5;
+  --blue:#ECF2FF;
+  --table: #49BEFF33;
+
+
+}
+
+/* Main.js CSS */
+
+.main_bg {
+  background: var(--bg);
+}
+.main_btn{
+  background: var(--bg);
+padding: 50px;
+}
+.header_btn{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.header_logout{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.main_btn.ant-tabs .ant-tabs-tab-btn{
+  width: 110px;
+  display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px 0;
+font-size: 12px !important;
+font-weight: 500;
+
+}
+.main_btn .ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab-active{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--btn);
+border-radius: 5px;
+
+
+}
+.main_btn .ant-tabs-card >.ant-tabs-nav .ant-tabs-tab{
+  border: none;
+  background: var(--bg);
+}
+.main_btn .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: var(--bg);
+}
+.header_btn>:nth-child(1){
+  color: red;
+}
+
+.main_bg .ant-layout-header{
+  height: auto;
+}
+.main_btn .ant-tabs-top >.ant-tabs-nav::before{
+  border-bottom: 0px;
+}
+.main_btn.ant-tabs-card >.ant-tabs-nav .ant-tabs-tab{
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+.main_btngrouop{
+  width: 110px;
+  font-size: 12px;
+  padding: 5px;
+}
+

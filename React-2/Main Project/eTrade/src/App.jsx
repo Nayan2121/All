@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import './App.css'
-import { Home } from './Pages/home.jsx'
+import React from 'react'
+import AllPages from './PAGES/AllPagesComponents/AllPages'
 
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () => {
   return (
-    <>
-    <Home/>
-    </>
+    <div>
+      <AllPages/>
+    </div>
   )
 }
 

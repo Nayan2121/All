@@ -1,0 +1,234 @@
+
+  .dashbord_bg,.investor_bg{
+    padding: 15px 0;
+  }
+  .dashbord_box{
+    border: 1px solid #2F2B3D29;
+    box-shadow: 0px 0px 4px 0px #2A35471A;
+border-radius: 14px;
+padding: 15px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-top: 15px;
+/* height: 130px; */
+
+  }
+  .dashbord_box3{
+    border: 1px solid #2F2B3D29;
+    box-shadow: 0px 0px 4px 0px #2A35471A;
+border-radius: 14px;
+padding: 15px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+margin-top: 15px;
+/* height: 130px; */
+  }
+  .dashbord_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dashbord_title .dashbord_user{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .dashbord_title .dashbord_platform{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background: var(--yellow) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dashbord_title  img{
+  
+    width: 15px;
+  }
+  .dashbord_box h2{
+    font-weight: 500;
+    color: #0950AC;
+
+  }
+  .dashbord_box p,.dashbord_box3{
+    font-size: 14px;
+    color: #2A3547AD;
+    
+  }
+  .dashbord_box3 ul{
+    padding-left: 20px;
+  }
+  .dashbord_box>:nth-child(2){
+    padding-left: 20px;
+  }
+
+  .dashbord_box2{
+    border: 1px solid #2F2B3D29;
+    box-shadow: 0px 0px 4px 0px #2A35471A;
+border-radius: 14px;
+padding: 15px;
+margin-top: 15px;
+margin-left: 15px;
+/* height: 275px; */
+  }
+  .dashbord_reg_tag p{
+    font-size: 14px;
+    color: var(--sec-color);
+  }
+  .dashbord_reg_tag h3{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--btn);
+  }
+  .dashbord_reg_tag{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+.eclipse1{
+  width: 14px;
+}
+.dashbord_chart_title p{
+  font-size: 14px;
+  color: var(--sec-color);
+}
+.dashbord_chart_title{
+  padding: 0 20px;
+}
+.dashbord_chart_title{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dashbord_chart{
+  display: flex;
+  align-items: center;
+justify-self: space-between;
+
+ 
+
+}
+.dashbord_table_main{
+  border: 1px solid #2F2B3D29;
+  box-shadow: 0px 0px 4px 0px #2A35471A;
+border-radius: 14px !important;
+
+margin-top: 15px;
+
+}
+.dashbord_table_title{
+  display: flex;
+  justify-content: space-between !important;
+}
+.dashbord_table_title p{
+  color:var(--prim-color);
+}
+ .ant-table-thead tr th{
+  background: var(--table) !important;
+}
+
+
+.ant-table-wrapper .ant-table-tbody>tr>td{
+  padding: 5px !important;
+
+}
+  
+.ant-table-wrapper .ant-table-container{
+  border: 1px solid #2F2B3D29;
+  color: var(--sec-color);
+ 
+
+
+
+}
+.ant-table-wrapper .ant-table-container {
+  border: none;
+  border-start-start-radius: 0px !important;
+  border-start-end-radius: 0px !important;
+}
+.dashbord_table_main{
+  border-radius: 0px;
+}
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child >*:first-child,.ant-table-wrapper .ant-table-container table>
+thead>tr:first-child >*:last-child {
+  border-radius: 0;
+
+}
+.ant-table-tbody,
+.ant-table-thead>tr>th{
+  text-align: center !important;
+  padding: 5px;
+}
+.chartMenu {
+  width: 100vw;
+  height: 40px;
+  background: #1A1A1A;
+  color: rgba(54, 162, 235, 1);
+}
+.chartMenu p {
+  padding: 10px;
+  font-size: 20px;
+}
+.chartCard {
+  width: 100vw;
+  height: calc(100vh - 40px);
+  background: rgba(54, 162, 235, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chartBox {
+  width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 3px rgba(54, 162, 235, 1);
+  background: white;
+}
+ /* graph */
+
+ .recharts-reference-line-line {
+  stroke-width:0 !important;
+ }
+  .recharts-rectangle {
+  width: 10px !important;
+ }
+
+
+
+
+
+
+@media (max-width:891px) {
+  .dashbord_box{
+    padding: 10px;
+    width: 100%;
+  }
+  .dashbord_box>:nth-child(2){
+    padding-left: 10px;
+  }
+}
+@media (max-width:767px) {
+  .dashbord_box,
+  .dashbord_box3{
+    width: 250px;
+    height: 130px;
+    margin: 10px;
+    padding: 15px;
+
+  }
+  .dashbord_box2{
+    margin-left: 0px;
+  }
+}
+
+
+
+

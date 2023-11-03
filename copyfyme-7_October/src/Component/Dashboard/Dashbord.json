@@ -1,0 +1,178 @@
+[{"searchBy":"1",
+"column":[{
+    "title":"No",
+    "key":"no",
+    "dataIndex":"no"
+},{
+    "title":"Gmail",
+    "key":"gmail",
+    "dataIndex":"gmail"
+},
+{
+    "title":"Nick Name",
+    "key":"name",
+    "dataIndex":"name"
+
+},{
+    "title":"Trading A/C No",
+    "key":"ac",
+    "dataIndex":"ac"
+
+},{
+    "title":"Registration Date",
+    "key":"date",
+    "dataIndex":"date"
+
+}],
+ "data"  : [
+    {
+        "key": 1,
+        "no":"01",
+      "gmail":"shrimalipiyush25@gmail.com",
+      "name":"Piyush",
+      "server":"MT5",
+      "ac":"125466",
+      "date":"24/09/2023 10:18 pm"
+     
+    },
+    {
+       " key": 2,
+        "no":"02",
+      "gmail":"shyamkoladiya25@gmail.com",
+      "name":"Shyam",
+      "server":"MT5",
+      "ac":"158963",
+      "date":"24/09/2023 10:18 pm"
+      
+    },
+    {
+       " key": 3,
+        "no":"03",
+      "gmail":"shrimalipiyush25@gmail.com",
+      "name":"Piyush",
+      "server":"MT5",
+      "ac":"125466",
+      "date":"24/09/2023 10:18 pm"
+      
+    },
+    {
+       " key": 4,
+        "no":"04",
+        "gmail":"shyamkoladiya25@gmail.com",
+        "name":"Shyam",
+      "server":"MT5",
+      "ac":"125466",
+      "date":"24/09/2023 10:18 pm"
+      
+    },
+    {
+       " key": 5,
+        "no":"05",
+      "gmail":"shrimalipiyush25@gmail.com",
+      "name":"Piyush",
+      "server":"MT5",
+      "ac":"125466",
+      "date":"24/09/2023 10:18 pm"
+      
+    },
+    {
+       " key": 6,
+        "no":"06",
+        "gmail":"shyamkoladiya25@gmail.com",
+        "name":"Shyam",
+      "server":"MT5",
+      "ac":"125466",
+      "date":"24/09/2023 10:18 pm"
+      
+    }
+]}
+,
+{"searchBy":"2",
+"column":[{
+    "title":"No",
+    "key":"no",
+    "dataIndex":"no"
+},{
+    "title":"Gmail",
+    "key":"gmail",
+    "dataIndex":"gmail"
+},
+{
+    "title":"Nick Name",
+    "key":"name",
+    "dataIndex":"name"
+
+},{
+    "title":"Trading A/C No",
+    "key":"ac",
+    "dataIndex":"ac"
+
+},{
+    "title":"Registration Date",
+    "key":"date",
+    "dataIndex":"date"
+
+}]
+, "data"  : [
+    {
+        "key": 1,
+        "no":"01",
+      "gmail":"shrimalipiyush25@gmail.com",
+      "name":"Piyush",
+      "server":"MT5",
+      "ac":"125466",
+      "date":"24/09/2023 10:18 pm"
+     
+    },
+    {
+       " key": 2,
+        "no":"02",
+      "gmail":"shyamkoladiya25@gmail.com",
+      "name":"Shyam",
+      "server":"MT5",
+      "ac":"158963",
+      "date":"24/09/2023 10:18 pm"
+      
+    },
+    {
+       " key": 3,
+        "no":"03",
+      "gmail":"shrimalipiyush25@gmail.com",
+      "name":"Piyush",
+      "server":"MT5",
+      "ac":"125466",
+      "date":"24/09/2023 10:18 pm"
+      
+    },
+    {
+       " key": 4,
+        "no":"04",
+        "gmail":"shyamkoladiya25@gmail.com",
+        "name":"Shyam",
+      "server":"MT5",
+      "ac":"125466",
+      "date":"24/09/2023 10:18 pm"
+      
+    },
+    {
+       " key": 5,
+        "no":"05",
+      "gmail":"shrimalipiyush25@gmail.com",
+      "name":"Piyush",
+      "server":"MT5",
+      "ac":"125466",
+      "date":"24/09/2023 10:18 pm"
+      
+    },
+    {
+       " key": 6,
+        "no":"06",
+        "gmail":"shyamkoladiya25@gmail.com",
+        "name":"Shyam",
+      "server":"MT5",
+      "ac":"125466",
+      "date":"24/09/2023 10:18 pm"
+      
+    }
+]
+}]

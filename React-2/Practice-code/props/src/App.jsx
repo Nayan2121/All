@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-       <div className='flex flex-wrap bg-slate-300 sm:h-screen md:h-screen  h-screen w-full justify-center  items-center sm:w-full  sm:flex-wrap md:flex md:w-full md:flex-wrap xl:flex xl:w-full'>
+       {/* <div className='flex flex-wrap bg-slate-300 sm:h-screen md:h-screen  h-screen w-full justify-center  items-center sm:w-full  sm:flex-wrap md:flex md:w-full md:flex-wrap xl:flex xl:w-full'>
         <Propes2 username="PanCake"
           btnTaxt="Click me"
           img="https://images.pexels.com/photos/15564188/pexels-photo-15564188/free-photo-of-pancakes-with-berries-and-marple-syrup.jpeg?auto=compress&cs=tinysrgb&w=1600" />
@@ -26,7 +26,8 @@ function App() {
           img="https://images.pexels.com/photos/5419336/pexels-photo-5419336.jpeg?auto=compress&cs=tinysrgb&w=1600" />
 
        
-      </div>
+      </div> */}
+      
     </>
   )
 }
