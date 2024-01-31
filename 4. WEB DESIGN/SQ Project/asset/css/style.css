@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+
+/* Header Part */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 35, 35);
+    padding: 20px;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+div a:nth-child(3) {
+    background-color: rgb(243, 179, 123);
+}
+
+
+/* Factory Part */
+.factory {
+    position: relative;
+    color: white;
+    text-align: end;
+    margin-top: 100px;
+    text-align: center;
+    padding-left: 600px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+section div a {
+    border: 1px solid white;
+}
+
+.background {
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+
+/* PRODUCT DETAILS */
+.products {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(17, 13, 9);
+    display: flex;
+    margin-top: 400px;
+}
+
+.mainbox-1 {
+    height: 500px;
+    width: 1700px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    overflow: auto;
+}
+
+section div div div a{
+    border: 0;
+    color: rgb(153, 104, 66);
+}
